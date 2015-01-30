@@ -1,56 +1,68 @@
-h1 {font-size: 24px; line-height: 42px;}
-.uk-text-center {text-align: center !important;}
-.uk-panel-box {background: transparent; border: 0; border-radius: 0; color: #444444; padding: 15px;}
+html { background: #555; }
+footer p {padding: 20px;color: #ccc;}
+h1 {font-family: 'Architects Daughter', arial; color:#ccc; font-size: 24px; line-height: 24px; padding: 15px 0 0 15px;}
+.uk-panel-box {font-family: 'Open Sans', sans-serif; background: transparent; border: 0; border-radius: 0; color: #444; padding: 3em; font-size:16px;}
 li {padding-left:0 !important;}
+a {color: #ccc; text-decoration: underline;}
+a:hover, a:active {color: #ccc; text-decoration: none;}
 
+.grey01 { background: #fcfcfc; }
+.grey02 { background: #f7f7f7; }
+.grey03 { background: #f2f2f2; }
+.grey04 { background: #ededed; }
+.grey05 { background: #e8e8e8; }
+.grey06 { background: #e3e3e3; }
+.grey07 { background: #dedede; }
+.grey08 { background: #dcdcdc; }
+.grey09 { background: #d6d6d6; }
+.grey10 { background: #d4d4d4; }
+.grey11 { background: #cfcfcf; }
+.grey12 { background: #cdcdcd; }
+.grey13 { background: #c7c7c7; }
+.grey14 { background: #c2c2c2; }
+.grey15 { background: #bebebe; }
+.grey16 { background: #bdbdbd; }
+.grey17 { background: #b8b8b8; }
+.grey18 { background: #b3b3b3; }
+.grey19 { background: #adadad; }
+.grey20 { background: #ababab; }
+.grey21 { background: #a8a8a8; }
+.grey22 { background: #a6a6a6; }
+.grey23 { background: #a1a1a1; }
+.grey24 { background: #9c9c9c; }
+.grey25 { background: #969696; }
+.grey26 { background: #919191; }
+.grey27 { background: #8c8c8c; }
+.grey28 { background: #878787; }
+.grey29 { background: #828282; }
+.grey30 { background: #7f7f7f; }
+.grey31 { background: #7d7d7d; color: #adadad; }
+.grey32 { background: #787878; color: #adadad; }
+.grey33 { background: #737373; color: #adadad; }
+.grey34 { background: #6e6e6e; color: #adadad; }
+.grey35 { background: #696969; color: #adadad; }
+.grey36 { background: #636363; color: #adadad; }
+.grey37 { background: #5e5e5e; color: #adadad; }
+.grey38 { background: #595959; color: #adadad; }
+.grey39 { background: #555555; color: #adadad; }
+.grey40 { background: #4f4f4f; color: #adadad; }
+.grey41 { background: #4a4a4a; color: #adadad; }
+.grey42 { background: #454545; color: #adadad; }
+.grey43 { background: #404040; color: #adadad; }
+.grey44 { background: #3b3b3b; color: #adadad; }
+.grey45 { background: #363636; color: #adadad; }
+.grey46 { background: #303030; color: #adadad; }
+.grey47 { background: #2b2b2b; color: #adadad; }
+.grey48 { background: #262626; color: #adadad; }
+.grey49 { background: #212121; color: #adadad; }
+.grey50 { background: #1c1c1c; color: #adadad; }
 
-.fcfcfc {background:#fcfcfc;}
-.f7f7f7 {background:#f7f7f7;}
-.f2f2f2 {background:#f2f2f2;}
-.ededed {background:#ededed;}
-.e8e8e8 {background:#e8e8e8;}
-.e3e3e3 {background:#e3e3e3;}
-.dedede {background:#dedede;}
-.dcdcdc {background:#dcdcdc;}
-.d6d6d6 {background:#d6d6d6;}
-.d4d4d4 {background:#d4d4d4;}
-.cfcfcf {background:#cfcfcf;}
-.cdcdcd {background:#cdcdcd;}
-.c7c7c7 {background:#c7c7c7;}
-.c2c2c2 {background:#c2c2c2;}
-.bebebe {background:#bebebe;}
-.bdbdbd {background:#bdbdbd;}
-.b8b8b8 {background:#b8b8b8;}
-.b3b3b3 {background:#b3b3b3;}
-.adadad {background:#adadad;}
-.ababab {background:#ababab;}
-.a8a8a8 {background:#a8a8a8;}
-.a6a6a6 {background:#a6a6a6;}
-.a1a1a1 {background:#a1a1a1;}
-.9c9c9c {background:#9c9c9c;}
-.969696 {background:#969696;}
-.919191 {background:#919191;}
-.8c8c8c {background:#8c8c8c;}
-.878787 {background:#878787;}
-.828282 {background:#828282;}
-.7f7f7f {background:#7f7f7f;}
-.7d7d7d {background:#7d7d7d;}
-.787878 {background:#787878;}
-.737373 {background:#737373;}
-.6e6e6e {background:#6e6e6e;}
-.696969 {background:#696969;}
-.636363 {background:#636363;}
-.5e5e5e {background:#5e5e5e;}
-.595959 {background:#595959;}
-.555555 {background:#555555;}
-.4f4f4f {background:#4f4f4f;}
-.4a4a4a {background:#4a4a4a;}
-.454545 {background:#454545;}
-.404040 {background:#404040;}
-.3b3b3b {background:#3b3b3b;}
-.363636 {background:#363636;}
-.303030 {background:#303030;}
-.2b2b2b {background:#2b2b2b;}
-.262626 {background:#262626;}
-.212121 {background:#212121;}
-.1c1c1c {background:#1c1c1c;}
+@media screen and (max-width: 767px) {
+	.uk-panel-box {border-top: 1px solid #ccc;}
+}
+
+@media screen and (max-width: 640px) {
+	h1 {font-size: 17px;}
+	.uk-margin {margin-bottom: 6px;}
+	.uk-panel-box {padding: 1em;}
+}
