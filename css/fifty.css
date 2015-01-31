@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 html { background: #555; }
 footer p {padding: 20px;color: #ccc;}
 h1 {font-family: 'Architects Daughter', arial; color:#ccc; font-size: 24px; line-height: 24px; padding: 15px 0 0 15px;}
@@ -58,7 +60,7 @@ a:hover, a:active {color: #ccc; text-decoration: none;}
 .grey50 { background: #1c1c1c; color: #adadad; }
 
 @media screen and (max-width: 767px) {
-	.uk-panel-box {border-top: 1px solid #ccc;}
+	.uk-panel-box {border-top: 1px solid #ccc;padding: 1em;}
 }
 
 @media screen and (max-width: 640px) {
